@@ -1,66 +1,34 @@
 {
-  "Post": {
-    "_": {
-      "items": 10
+  "item-position-snapshot": {
+    "-": {
+      "items": 50
     },
-    "cover": {
-      "regexp": "https://picsum\\.photos/seed/[0-9]{5}/1920/270"
+    "asin": {
+      "string": ["B00008BRR8"]
     },
-    "title": {
+    "keyword": {
       "loremWords": {
         "minLength": 5,
-        "maxLength": 20
+        "maxLength": 10,
       }
     },
-    "body": {
-      "loremParagraphs": {
-        "minLength": 10,
-        "maxLength": 100
-      }
-    },
-    "category": {
-      "string": ["one", "two", "three"]
-    },
-    "isDraft": {
-      "boolean": {}
-    },
-    "views": {
+    "position": {
       "int": {
-        "min": 0,
-        "max": 1000
+        "min": 1,
+        "max":  60
       }
     },
-    "createdAt": {
+    "position": {
+      "int": {
+        "min": 1,
+        "max":  5
+      }
+    },
+    "captured-datetime": {
       "dateTime": {
-        "min": "2010-01-01T00:00:00Z",
-        "max": "2020-12-31T23:59:59Z"
+        "min": "2023-01-01T00:00:00Z",
+        "max": "2023-01-31T23:59:59Z"
       }
-    },
-    "comments": {
-      "hasMany": "Comment"
-    }
-  },
-  "Comment": {
-    "_": {
-      "items": 25
-    },
-    "email": {
-      "regexp": "[a-z]{5,10}@[a-z]{5}\\.[a-z]{2,3}"
-    },
-    "body": {
-      "loremParagraphs": {
-        "minLength": 10,
-        "maxLength": 100
-      }
-    },
-    "createdAt": {
-      "dateTime": {
-        "min": "2010-01-01T00:00:00Z",
-        "max": "2020-12-31T23:59:59Z"
-      }
-    },
-    "post": {
-      "belongsTo": "Post"
     }
   }
 }
