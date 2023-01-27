@@ -7,10 +7,7 @@
       "string": ["B00008BRR8"]
     },
     "keyword": {
-      "loremWords": {
-        "minLength": 5,
-        "maxLength": 10
-      }
+      "string": ["eye drops", "Contact Lens Rewetting Drops", "moisturizing eye drops", "moisturizing eye drops"]
     },
     "position": {
       "int": {
