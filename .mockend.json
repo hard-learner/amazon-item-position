@@ -9,7 +9,7 @@
     "keyword": {
       "loremWords": {
         "minLength": 5,
-        "maxLength": 10,
+        "maxLength": 10
       }
     },
     "position": {
