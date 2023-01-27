@@ -15,7 +15,7 @@
         "max":  60
       }
     },
-    "position": {
+    "page": {
       "int": {
         "min": 1,
         "max":  5
